@@ -1,0 +1,3 @@
+kubectl apply -f infra/kubernetes/platform-system.yaml
+docker build -t registry/api:latest apps/api
+docker push registry/api:latest
